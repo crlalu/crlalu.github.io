@@ -1,0 +1,82 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-width: 65%;
+  object-fit: contain;
+}
+
+.footer {
+	width: 100%;
+    margin: 0 auto;
+}
+
+.upperFooter {
+	background-color: #292b2c;
+	color: #FFFFFF80;
+	padding-top: 1.2rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	font-size: small;
+}
+
+.footerLeft {
+	line-height: 30%;
+}
+
+.lowerFooter {
+	background-color: #292b2c;
+	color: #FFFFFF80;
+	text-align: center;
+	font-size: small;
+}
+
+.icon {
+	max-height: 5rem;
+	max-width: 5rem;
+}
+
+#call {
+	width: 140px;
+	height: 120px;
+	border-radius: 25px;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
